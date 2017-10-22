@@ -1,3 +1,3 @@
-# Single Page React Application: Expensify
+# Expensify
 
-Expensify is an example SPA.
+Expensify is a SPA that helps managing your expenses.
