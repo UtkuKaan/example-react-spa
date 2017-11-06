@@ -1,19 +1,27 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`should render ExpenseListItem with individual expense correctly 1`] = `
-<div>
-  <Link
-    replace={false}
-    to="/edit/3"
-  >
-    <h3>
+<Link
+  className="list-item"
+  replace={false}
+  to="/edit/3"
+>
+  <div>
+    <h3
+      className="list-item__title"
+    >
       Credit Card
     </h3>
-  </Link>
-  <p>
+    <span
+      className="list-item__subtitle"
+    >
+      January 5th, 1970
+    </span>
+  </div>
+  <h3
+    className="list-item__data"
+  >
     $1,200.00
-    -
-    January 5th, 1970
-  </p>
-</div>
+  </h3>
+</Link>
 `;
